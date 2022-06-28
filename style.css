@@ -7,7 +7,7 @@
   background: #025f3c;
   color: white;
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: 'Overpass';
 }
 
 .mainheader {
@@ -16,6 +16,7 @@
   background: #025f3c;
   color: white;
   font-size: 22px;
+  font-family: 'Overpass';
 }
 
 .article {
@@ -25,6 +26,7 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Overpass';
 }
 
 .topnav {
@@ -328,7 +330,6 @@
 }
 
 .modal-wrapper {
-  align-items: center;
   background: rgba(0, 0, 0, 0.7);
   bottom: 0;
   display: flex;
