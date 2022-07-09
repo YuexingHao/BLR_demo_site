@@ -4,13 +4,15 @@
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
+
+
 <body>
-
-
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="main_page.html">Home</a>
@@ -35,89 +37,184 @@
   <h1>Literature-based Clinical Decision Support System</h1>
   <h3>Case Three</h3>
 </div>
-<br></br>
-
-<br></br>
 
 <div class="row">
-  <div class="column left" style="background-color:#aaa;">
+  <div class="column left" style="background-color:#ddd; font-family: 'Roboto';">
     <h2><center>Patient Variables</center></h2>
     <table id="tables">
   <tr>
     <th>Labels</th>
-    <th>Conditions</th>
+    <th>Information</th>
   </tr>
   <tr>
     <td>One sentence Summary</td>
-    <td>The patient is experiencing a major depressive episode and has prominent feelings of somatic and psychological anxiety.</td>
+    <td>A 35-year-old woman with bipolar disorder became pregnant and chose to discontinue her medications against the advice of her psychiatrists. She developed postpartum psychosis and was treated with a variety of medications, including olanzapine, haloperidol, lorazepam, and valproic acid.</td>
   </tr>
   <tr>
-    <td>Patient Group (P)</td>
-    <td>A 55-year-old woman</td>
+    <td>Age</td>
+    <td>35</td>
   </tr>
   <tr>
-    <td>Interventions (I)</td>
-    <td>Has prominent feelings of somatic and psychological anxiety that she did not experienc last time</td>
+    <td>Gender</td>
+    <td>Female</td>
   </tr>
   <tr>
-    <td>Comparator (C)</td>
-    <td>a major depressive episode</td>
+    <td>Symptoms</td>
+    <td>Postpartum Confusion, Agitation, and Delusions</td>
   </tr>
   <tr>
-    <td>Outcomes (O)</td>
-    <td>Her condition is less acute, and a meta-analysis suggesting that anti-depressants are less effective in milder cases of depression. She experienced trauma during adolescence, has been unable to fall asleep in the evenings, and has extreme feelings of worthlessness.</td>
+    <td>Family History</td>
+    <td>Positive for severe depression in two first-degree relatives, including one who had attempted suicide; a second-degree relative had committed suicide.</td>
+  </tr>
+  <tr>
+    <td>Allergies</td>
+    <td>No allergies to medications</td>
+  </tr>
+  <tr>
+    <td>Medications</td>
+    <td>Valproic acid (500 mg) twice daily, lorazepam (1 mg) three times daily as needed, and haloperidol (5 mg) at bedtime.</td>
+  </tr>
+  <tr>
+    <td>Examination Result</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>Other Info</td>
+    <td>Five most important features for this patient and attendant responses were as follows:<br>
+      •Have you ever witnessed a traumatic event? No<br>
+      •Did reminders of a traumatic event make you shake, break out into a sweat, or have a racing heart? No<br>
+      •Have you had any trouble falling asleep when you go to bed? Takes at least 30 minutes to fall asleep, more than half the time<br>
+      •Have you been feeling down, blue, sad or depressed? Feels sad less than half the time
+      •Do you eat a lot when not hungry? Yes</td>
+  </tr>
+  <tr>
+    <td>Pathological Diagnosis</td>
+    <td>Postpartum psychosis in a patient with bipolar disorder.</td>
   </tr>
 </table>
 <h3>The full description of case one</h3>
-<p>A 55-year-old woman presents seeking treatment with clear symptoms of a major depressive episode. This is her third such episode. She reports that sertraline worked well for her the first time. The second time, however, it made her dizzy and she had to discontinue; she eventually responded well <span id="dots">...</span><span id="more"> to bupropion. She expresses a preference for medication over psychotherapy but is not sure which one to try. She tries bupropion and it worked last time, but in exploring her current symptoms it is clear that she has prominent feelings of somatic and psychological anxiety that she did not experience last time. Overall, her condition is less acute, and you recall a meta-analysis suggesting that anti-depressants are less effective in milder cases of depression. She experienced trauma during adolescence, has been unable to fall asleep in the evenings, and has extreme feelings of worthlessness.<br><br>
+<p>A 35-year-old woman was admitted to the inpatient psychiatry service of this hospital 5 days after the birth of her first child because of confusion, agitation, and delusions. The patient had been well until approximately 2 years earlier, when insomnia, auditory hallucinations, and disorientation, followed by severe depression and suicidal ideation, developed. After two inpatient psychiatric admissions, a diagnosis of bipolar disorder was made. The patient's symptoms were controlled with lithium, 900 mg at bedtime, and citalopram, 40 mg per day, for the next 9 months. One year before admission, she was seen in consultation by the perinatal psychiatry service, since she and her husband wished to start a family. Approximately 11 months before admission, she discontinued her medications against the advice of her psychiatrist and the perinatal psychiatry consultant, and 2 months later, she became pregnant. During her pregnancy, she had intermittent dysphoria, anxiety, insomnia, and blunting of affect. She was advised by her physicians to resume her medications, but she declined to do so; she also stated that, should she become psychotic, she would not want to be given medications that could harm her child or preclude breast-feeding after delivery.
 
-Case study Reference: Chekroud, A. M., Lane, C. E., & Ross, D. A. (2017). Computational Psychiatry: Embracing Uncertainty and Focusing on Individuals, Not Averages. Biological psychiatry, 82(6), e45–e47. https://doi.org/10.1016/j.biopsych.2017.07.011</span></p>
-<button onclick="myFunction()" id="myBtn">Read more</button>
+Five days before admission to the psychiatry service, at 41 weeks 4 days of gestation, spontaneous rupture of membranes occurred. Approximately 12 hours later, a healthy male infant was delivered by emergency cesarean section, which was performed because there had been prolonged fetal heart-rate decelerations during labor. The patient's postoperative recovery was uncomplicated. She began breast-feeding, and for the first 3 postpartum days, she was alert and oriented and interacted appropriately with her baby. During the third night, insomnia developed. At 5:30 a.m. on the fourth day, she was disoriented. She did not recall having given birth and did not recognize her baby; she appeared frightened and thought the nurses were trying to hurt her. <span id="dots">... </span><span id="more">  An emergency psychiatry consultation was obtained, and olanzapine (15 mg) was administered orally. Around-the-clock observation by a hospital staff member was initiated. During the next 24 hours, the patient remained agitated and confused, and she refused all medications. She spoke only in her native language, and tried to choke herself and bite others. She appeared to be having auditory hallucinations. Restraints were placed on her arms and legs. The patient's husband gave consent for pharmacologic treatment, provided that, if possible, the medications chosen would be consistent with the patient's desire to breast-feed her child. Haloperidol, lorazepam, and benztropine were administered intramuscularly. 
+
+By the afternoon of the fifth postpartum day, the patient was alert and calm, speaking English, and asking what had happened. The restraints were removed. She pumped breast milk and had a supervised visit with her baby. She consented to a medication regimen that had been approved by the perinatal psychiatry team for use during breast-feeding. Valproic acid (500 mg), haloperidol (5 mg), and lorazepam (1 mg) were administered orally twice daily. The patient was transferred to the inpatient psychiatric unit.
+
+At the time of her initial evaluation for bipolar disorder, magnetic resonance imaging (MRI) of the brain, electroencephalographic studies, routine hematologic and serologic tests, and levels of electrolytes, glucose, vitamin B12, and folate were normal, as were tests of renal and thyroid function. Prenatal screening for hepatitis B virus, human immunodeficiency virus, and syphilis were negative. The patient was white and had immigrated to the United States from Europe approximately a decade earlier. She was married and worked in a professional occupation. There was no history of alcohol or substance dependence, and she had no allergies to medications. She had had a positive tuberculosis skin test and a normal chest radiograph in the past. Her family history was positive for severe depression in two first-degree relatives, including one who had attempted suicide; a second-degree relative had committed suicide.
+
+On transfer to the psychiatry unit, the patient had only a vague recollection of the events of the preceding days in the hospital. Her vital signs were normal. She was alert, oriented, attentive, cooperative, and well-groomed. Her mood was depressed and labile. She had insomnia and feelings of guilt about what had happened. She had no thoughts of suicide or of hurting her baby and no hallucinations or symptoms of psychosis. During the next 5 days, she had supervised visits with the baby and was breast-feeding and pumping milk. On the 10th postpartum day, she was discharged home. The family was educated about postpartum psychosis and the need for 24-hour supervision, and the patient and her husband reluctantly agreed to allow extended family members to stay with them for at least a month. Medications at discharge included valproic acid (500 mg) twice daily, lorazepam (1 mg) three times daily as needed, and haloperidol (5 mg) at bedtime.
+
+One week after discharge, sertraline (50 mg per day) was added to the patient's medications because of persistent depression, and 10 days later, she came to the emergency room because of thoughts of harming her baby. She was transferred to a psychiatric hospital affiliated with this institution, and eight sessions of electroconvulsive therapy were administered. The patient decided to stop breast-feeding; valproic acid was discontinued, and treatment with lithium was begun. The patient had persistent memory loss after the electroconvulsive therapy, but her symptoms abated, and she was discharged home on the 23rd hospital day. Three days later, she saw her obstetrician, who suggested that she consider not having more children because of her severe postpartum psychosis. The next day, she returned to the emergency department because of recurrent auditory hallucinations, intrusive thoughts about harming her baby, suicidal ideation, and agitation. She was readmitted to the psychiatric hospital. Haloperidol and sertraline were discontinued, and treatment with olanzapine and citalopram was begun. Her symptoms abated, and she was discharged on the 17th hospital day.
+
+One week later, at a follow-up visit with her psychiatrist, the patient was alert and appropriate, and her mood appeared to be normal. She was working half-time and was able to take care of her baby. Her medications were olanzapine (25 mg daily), citalopram (20 mg daily), and lithium (300 mg three times daily). Two months later, the patient, her husband, and their baby moved to her native country to be closer to her extended family.<br><br>
+
+Case Study Reference: Bhattacharyya, S., Gonzalez, R. G., Chwalisz, B. K., & Champion, S. N. (2021). Case 22-2021: A 64-Year-Old Woman with Cognitive Impairment, Headache, and Memory Loss. The New England journal of medicine, 385(4), 358–368. https://doi.org/10.1056/NEJMcpc2103460 
+</span></p>
+<button onclick="ReadMore()" id="myBtn">Read more</button>
 
   </div>
 
-  <div class="column middle" style="background-color:#bbb;">
-    <h2><center>AI Predictions</center></h2>
-    <p>The recommended treatment predicted by our DST: <b style="color:darkgreen;font-size:150%;">intravenous immunoglobulins (IVIG)</b></p>
-  </div>
+  <div class="column right">
+    
+    <h2><center>DST Recommendations</center></h2>
 
-  <div class="column right" style="background-color:#ccc;">
+    <p>Below option displays the prediction treatment options from Aifred Health DST:</p>
+    
+    <label class="container">Bupropion SR + Escitalopram -- 60.43% chance of remission *
+      <span class="checkmark"></span>
+    </label>
+    <label class="container">Citalopram -- 38.03% chance of remission
+      <span class="checkmark"></span>
+    </label>
+    <label class="container">Venlafaxine XR + Mirtazapine -- 35.63% chance of remission *
+      <span class="checkmark"></span>
+    </label>
+    
+    <p>(*Bupropion is often used clinically in cases of hyperphagia or when weight gain is to be avoided.)</p>
+
     <h2><center>Literature Evidence</center></h2>
-    <p>Below table displays the matchable literatures from PubMed filtered by P (Patient Groups). The other two columns display P (Patient Group) and I (Interventions).</p>
+    <p>Below table displays the matchable literatures from PubMed and Google Scholar filtered by patient's symptoms. Please enter keywords for each PICO category.</p>
 
-<center>
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h1>Literature 1</h1> 
-      <h4>Stanford Type A Acute Aortic Dissection with Persistent Left Superior Vena Cava in a Turner Syndrome Patient:Report of a Case</h4> 
-    </div>
-    <div class="flip-card-back">
-      <h2>Literature 1</h2> 
-      <p>P: The patient population of focus is people with Turner syndrome.</p>
-    </div>
-  </div>
-</div>
-<br></br>
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h1>Literature 2</h1> 
-      <h4>Ultrasound-Guided Caudal Epidural Steroid Injection for Back Pain: A Case Report of Successful Emergency Department Management of Radicular Low Back Pain Symptoms.</h4> 
-    </div>
-    <div class="flip-card-back">
-      <h2>Literature 2</h2> 
-      <p>P: The patient population of focus is people with chronic lumbar radiculopathy who present to the ED with acute low back and right lower-extremity pain.</p>
-    </div>
-  </div>
-</div>
-</center>
+  <h3>P (Patient/Population)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for P" title="Type in a tag"></h3>
+  <h3>I (Intervention), C (Comparison)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for I or C" title="Type in a tag"></h3>
+  <h3>O (Outcome)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for O" title="Type in a tag"></h3>
+
+<table id="myTable" style="font-size: 70%; font-family: 'Roboto';">
+  <tr>
+    <th>Literature Names</th>
+    <th>First Author Name</th>
+    <th>One Sentence Summary</th>
+  </tr>
+  <tr>
+    <td><a href="https://link.springer.com/article/10.1007/s11916-022-01039-5">Cognitive Impairment in Primary and Secondary Headache Disorders (2022)</a></td>
+    <td>Olivia Begasse de Dhaem</td>
+    <td>There is evidence that migraine is associated with cognitive impairment years before a migraine diagnosis. In young and middle-aged adults, migraine is associated with deficits in attention, executive function, processing speed, and memory. It is unlikely that migraine is associated with dementia.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.tandfonline.com/doi/abs/10.1080/026990597123601?casa_token=pOi9y9blcWoAAAAA:LK3RJj_nWaBMzNLK2T5LYwV0SqdxYz07tQXGFkuQcouJaY7YDG0jUoQIJyEvfr4crAu_ecavuQ">Subject review with case study: Pseudotumour cerebri risk for cognitive impairment. (1997)</a></td>
+    <td>C. P. Kaplan</td>
+    <td>Elevated intracranial pressure headache and emotional distress can contribute to reduced cognitive performance and increased self monitoring.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.tandfonline.com/doi/full/10.3109/10253890.2012.708950">Cognitive impairment in patients with stress-related exhaustion</a></td>
+    <td>I. H. Jonsdottir</td>
+    <td>Cognitive impairment is a common symptom in patients with stress-related exhaustion, and is most pronounced in executive function, attention span, and working memory. The severity of burnout symptoms is related to poorer performance on tests of learning and memory.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.karger.com/Article/Abstract/84559">Everyday Memory Impairment of Patients with Mild Cognitive Impairment (2005)</a></td>
+    <td>Kazui H.</td>
+    <td>The RBMT can be used to accurately diagnose mild cognitive impairment in patients. However, prospective memory tasks are not useful for detecting these patients.</td>
+  </tr>
+  </tr>
+</table>
   </div>
 </div>
 
 
 <script>
-function myFunction() {
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+function ReadMore() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
@@ -133,15 +230,23 @@ function myFunction() {
   }
 }
 
-
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[2];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
 }
 </script>
 
