@@ -25,38 +25,17 @@
 
   <div class="topnav">
   <a><span onclick="openNav()">&#9776; Menu</span></a>
-  <a class="active" href="main_page.html">Home</a>
-  <a href="case_one.html">Case 1</a>
-  <a href="case_two.html">Case 2</a>
-  <a href="case_three.html">Case 3</a>
-  <a href="case_four.html">Case 4</a>
-  <a href="case_five.html">Case 5</a>
-</div>
-
-<div class="header">
-  <h1>Literature-based Clinical Decision Support System</h1>
-  <h3>Case Three</h3>
 </div>
 
 <div class="row">
   <div class="column left" style="background-color:#ddd; font-family: 'Roboto';">
-    <h2><center>Patient Variables</center></h2>
+    <h2>Patient: Mrs. G</h2>
+    <p>Date of Presentation: 07/31/2008</p>
+    <p>35F IN-PT</p>
     <table id="tables">
   <tr>
     <th>Labels</th>
     <th>Information</th>
-  </tr>
-  <tr>
-    <td>One sentence Summary</td>
-    <td>A 35-year-old woman with bipolar disorder became pregnant and chose to discontinue her medications against the advice of her psychiatrists. She developed postpartum psychosis and was treated with a variety of medications, including olanzapine, haloperidol, lorazepam, and valproic acid.</td>
-  </tr>
-  <tr>
-    <td>Age</td>
-    <td>35</td>
-  </tr>
-  <tr>
-    <td>Gender</td>
-    <td>Female</td>
   </tr>
   <tr>
     <td>Symptoms</td>
@@ -64,7 +43,7 @@
   </tr>
   <tr>
     <td>Family History</td>
-    <td>Positive for severe depression in two first-degree relatives, including one who had attempted suicide; a second-degree relative had committed suicide.</td>
+    <td>Positive for severe depression in two first-degree relatives; a second-degree relative had committed suicide.</td>
   </tr>
   <tr>
     <td>Allergies</td>
@@ -118,7 +97,7 @@
     
     <h2><center>DST Recommendations</center></h2>
 
-    <p>Below option displays the prediction treatment options from Aifred Health DST:</p>
+    <p>Below option displays the prediction treatment options from <b>Aifred Health</b> DST:</p>
     
     <label class="container">Bupropion SR + Escitalopram -- 60.43% chance of remission *
       <span class="checkmark"></span>
@@ -135,9 +114,9 @@
     <h2><center>Literature Evidence</center></h2>
     <p>Below table displays the matchable literatures from PubMed and Google Scholar filtered by patient's symptoms. Please enter keywords for each PICO category.</p>
 
-  <h3>P (Patient/Population)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for P" title="Type in a tag"></h3>
-  <h3>I (Intervention), C (Comparison)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for I or C" title="Type in a tag"></h3>
-  <h3>O (Outcome)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for O" title="Type in a tag"></h3>
+  <h4>P (Patient/Population)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for P" title="Type in a tag">
+      I (Intervention), C (Comparison)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for I or C" title="Type in a tag">
+      O (Outcome)：<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search tags for O" title="Type in a tag"></h4>
 
 <table id="myTable" style="font-size: 70%; font-family: 'Roboto';">
   <tr>
