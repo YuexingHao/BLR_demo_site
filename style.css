@@ -82,10 +82,12 @@ html *
 
 .left{
   width: 49%;
+  border-radius: 12px;
 }
 
 .right {
   width: 50%;
+  border-radius: 12px;
 }
 
 .topleft{
