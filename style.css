@@ -1,4 +1,4 @@
-/*@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* Header/Logo Title */
 
@@ -9,10 +9,10 @@ html *
 
 .header {
   padding: 5px;
-  text-align: center;
-  background: #025f3c;
-  color: white;
-  font-size: 20px;
+  text-align: left;
+  /*background: #025f3c;*/
+  color: black;
+  font-size: 15px;
   font-family: 'Overpass';
 }
 
@@ -71,12 +71,47 @@ html *
   height: 2000px; /* The length of the grey area*/ 
 }
 
+.flextablerow {
+  display: flex;
+}
+
+
+.flextablecolumn {
+  flex: 40%; /*The width of each table column*/
+}
+
 .left{
-  width: 65%;
+  width: 49%;
 }
 
 .right {
-  width: 34%;
+  width: 50%;
+}
+
+.topleft{
+  width: 30%;
+  height: 130px;
+  bacground-color: #white;
+}
+
+.topright{
+  width: 70%;
+  height: 130px;
+  bacground-color: #white;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #3b6b45;
+  border-left: none;
+  border-right: none;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
 }
 
 /* Clear floats after the columns */
@@ -85,7 +120,6 @@ html *
   display: table;
   clear: both;
 }
-
 
 .button {
   position: relative;
@@ -290,17 +324,6 @@ html *
   font-family: 'Overpass';
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 30%;
-  border-radius: 30px;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 .modal-header {
   align-items: baseline;
 
@@ -377,7 +400,7 @@ html *
   padding: 2px 10px;}
 
 /* The container */
-.container {
+.DSTtable {
   font-weight: bold;
   color:darkgreen;
   display: block;
@@ -386,10 +409,6 @@ html *
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 18px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 /* Hide the browser's default radio button */
@@ -445,13 +464,13 @@ html *
 
 #myInput {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
-  background-position: 10px 10px;
+  background-position: 3px 3px;
   background-repeat: no-repeat;
   width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
+  font-size: 12px;
+  padding: 5px 20px 5px 40px;
   border: 1px solid #ddd;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
 }
 
 #myTable {
