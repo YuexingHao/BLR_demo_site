@@ -7,6 +7,10 @@ html *
    font-family: Overpass !important;
 }
 
+h2 {
+  margin-top: 1;
+}
+
 .header {
   padding: 5px;
   text-align: left;
@@ -24,6 +28,7 @@ html *
   font-size: 22px;
   font-family: 'Overpass';
 }
+
 
 .article {
   margin: 0;
@@ -200,13 +205,13 @@ th, td {
 
 .float{
   position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  right:40px;
+  width:70px;
+  height:25px;
+  bottom:30px;
+  right:30px;
   background-color:#0C9;
   color:#FFF;
-  border-radius:50px;
+  border-radius:35px;
   text-align:center;
   box-shadow: 2px 2px 3px #999;
 }
@@ -311,10 +316,10 @@ th, td {
   padding-left: 300px;
   padding-right: 300px;
   text-align: center;
-  background: white; 
+  background:#fafafa; 
   color: black;
   font-size: 20px;
-  font-family: 'Overpass';
+  font-family: Arial, sans-serif;
 }
 
 .mainbody {
@@ -463,6 +468,72 @@ th, td {
   background: white;
 }
 
+.card {
+  padding: 35px;
+  background: #fff;
+  max-width: 900px;
+  border-radius: 20px;
+  margin: 8px auto;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #294;
+}
+
+.shadow1 { 
+  box-shadow: 0 20px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.shadow2 { 
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 5px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+details {
+  user-select: none;
+}
+
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+  color: lightgray
+}
+
+summary::-webkit-details-marker {
+  display: none;
+
+}
 
 #myInput {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
