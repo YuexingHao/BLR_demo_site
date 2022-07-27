@@ -111,13 +111,13 @@ p { margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
 .topleft{
   width: 30%;
   height: auto;
-  bacground-color: #white;
+  background-color: #white;
 }
 
 .topright{
   width: 69%;
   height: auto;
-  bacground-color: #white;
+  background-color: #white;
 }
 
 table {
@@ -197,10 +197,10 @@ th, td {
   background-color: white; 
   font-size: 15px;
   color: black; 
-  padding: 1px;
+  padding: 10px;
   width: 130px;
-  height: 35px;
-  border: 1px solid #008CBA;
+  height: 50px;
+  border: 2px solid #008CBA;
 }
 
 .button2:hover {
@@ -366,6 +366,45 @@ th, td {
   display: flex;*/
 }
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.modalclose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modalclose:hover,
+.modalclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .close {
   background: none;
   border: none;
@@ -378,17 +417,6 @@ th, td {
   svg {
     width: 20px;
   }
-}
-
-.modal-wrapper {
-  background: rgba(0, 0, 0, 0.7);
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
 }
 
 #modal {
@@ -564,16 +592,42 @@ summary::-webkit-details-marker {
 
 }
 
-#myInput {
+#myInputP {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
   background-position: 8px 3px;
   background-repeat: no-repeat;
-  width: 28%; /*Length of the placeholder*/
-  font-size: 12px;
+  width: 29%; /*Length of the placeholder*/
+  font-size: 16px;
   padding: 5px 20px 5px 40px;
   border: 1px solid #ddd;
   margin-bottom: 2px;
-  border-radius: 10px;
+  border-radius: 12px;
+}
+
+
+#myInputIC {
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 8px 3px;
+  background-repeat: no-repeat;
+  width: 29%; /*Length of the placeholder*/
+  font-size: 16px;
+  padding: 5px 20px 5px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 2px;
+  border-radius: 12px;
+}
+
+
+#myInputO {
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 8px 3px;
+  background-repeat: no-repeat;
+  width: 29%; /*Length of the placeholder*/
+  font-size: 16px;
+  padding: 5px 20px 5px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 2px;
+  border-radius: 12px;
 }
 
 #myTable {
