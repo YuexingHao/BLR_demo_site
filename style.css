@@ -40,12 +40,11 @@ p { margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
 }
 
 .mainheader {
-  padding: 108px;
+  padding: 18px;
   text-align: center;
-  background: #025f3c;
-  color: white;
+  background: #E6F9E6;
+  color: black;
   font-size: 22px;
-  font-family: 'Overpass';
 }
 
 
@@ -61,17 +60,16 @@ p { margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
 
 .topnav {
   overflow: auto;
-  background-color: #052A02;
+  background-color: #f2f8f2;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: 'Overpass';
 }
 
 .topnav a:hover {
@@ -96,7 +94,7 @@ p { margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
 }
 
 .topleft{
-  width: 30%;
+  width: 34%;
   height: auto;
   background-color: #white;
 }
@@ -112,7 +110,7 @@ p { margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
 }
 
 .topright{
-  width: 69%;
+  width: 63%;
   height: auto;
   background-color: #white;
 }
@@ -213,6 +211,8 @@ th, td {
 
 
 .button1 {
+  padding: 15px;
+  width: 350px;
   background-color: white; 
   color: black; 
   border: 2px solid #4CAF50;
@@ -404,6 +404,10 @@ IC_back {
 O_back {
   border-radius: 5px;
   background-color: #f18973;
+}
+
+boldFont {
+  font-weight: 900;
 }
 
 .modal-header {
