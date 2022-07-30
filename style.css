@@ -40,7 +40,7 @@ p { margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
 }
 
 .mainheader {
-  padding: 25px;
+  padding: 18px;
   text-align: center;
   background: #E6F9E6;
   color: black;
@@ -392,7 +392,7 @@ th, td {
 }
 
 P_back {
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: #80ced6;
 }
 
@@ -645,11 +645,11 @@ summary::-webkit-details-marker {
 
 #myInputP {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
-  background-position: 8px 3px;
+  background-position: 5px 3px;
   background-repeat: no-repeat;
-  width: 29%; /*Length of the placeholder*/
-  font-size: 16px;
-  padding: 5px 20px 5px 40px;
+  width: 26%; /*Length of the placeholder*/
+  font-size: 13px;
+  padding: 3px 20px 3px 35px;
   border: 1px solid #ddd;
   margin-bottom: 2px;
   border-radius: 12px;
@@ -658,11 +658,11 @@ summary::-webkit-details-marker {
 
 #myInputIC {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
-  background-position: 8px 3px;
+  background-position: 5px 3px;
   background-repeat: no-repeat;
-  width: 29%; /*Length of the placeholder*/
-  font-size: 16px;
-  padding: 5px 20px 5px 40px;
+  width: 32.5%; /*Length of the placeholder*/
+  font-size: 13px;
+  padding: 3px 20px 3px 35px;
   border: 1px solid #ddd;
   margin-bottom: 2px;
   border-radius: 12px;
@@ -671,11 +671,11 @@ summary::-webkit-details-marker {
 
 #myInputO {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
-  background-position: 8px 3px;
+  background-position: 5px 3px;
   background-repeat: no-repeat;
-  width: 29%; /*Length of the placeholder*/
-  font-size: 16px;
-  padding: 5px 20px 5px 40px;
+  width: 24%; /*Length of the placeholder*/
+  font-size: 13px;
+  padding: 3px 20px 3px 35px;
   border: 1px solid #ddd;
   margin-bottom: 2px;
   border-radius: 12px;
