@@ -13,7 +13,8 @@ h1 {
   margin-bottom: 10px;
 }
 h3 {
-  margin-top: 15px;
+  margin-top: 1px;
+  font-size: 20px;
   margin-bottom: 1;
 }
 
@@ -91,9 +92,30 @@ p { margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
 .column {
   float: left;
   padding: 10px;
-  height: 2000px; /* The length of the grey area*/ 
+  height: 900px; /* The length of the grey area*/ 
 }
 
+.topleft{
+  width: 30%;
+  height: auto;
+  background-color: #white;
+}
+
+.left{
+  width: 34%;
+  border-radius: 12px;
+}
+
+.right {
+  width: 65%;
+  border-radius: 12px;
+}
+
+.topright{
+  width: 69%;
+  height: auto;
+  background-color: #white;
+}
 
 
 .flextablerow {
@@ -103,28 +125,6 @@ p { margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
 
 .flextablecolumn {
   flex: 40%; /*The width of each table column*/
-}
-
-.left{
-  width: 27%;
-  border-radius: 12px;
-}
-
-.right {
-  width: 72%;
-  border-radius: 12px;
-}
-
-.topleft{
-  width: 30%;
-  height: auto;
-  background-color: #white;
-}
-
-.topright{
-  width: 69%;
-  height: auto;
-  background-color: #white;
 }
 
 table {
@@ -149,7 +149,29 @@ th, td {
   clear: both;
 }
 
+/*Collapse foldable sections*/
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 3px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
+.active, .collapsible:hover {
+  background-color: #D4F2DC;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #E7EEE9;
+}
 
 .button {
   position: relative;
@@ -290,14 +312,14 @@ th, td {
 }
 
 .tooltip {
-  position: relative;
+  position: relateive;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  /*border-bottom: 1px dotted black;*/
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 390px;
+  width: 500px;
   background-color: darkgreen;
   color: #fff;
   text-align: left;
@@ -307,6 +329,8 @@ th, td {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
+  margin-top: -100px;
+  margin-left: -300px;
 }
 
 .tooltip:hover .tooltiptext {
@@ -365,6 +389,21 @@ th, td {
   font-size: 20px;
   display: block;
   font-family: 'Overpass';
+}
+
+P_back {
+  border-radius: 5px;
+  background-color: #80ced6;
+}
+
+IC_back {
+  border-radius: 5px;
+  background-color: #F5CB4A;
+}
+
+O_back {
+  border-radius: 5px;
+  background-color: #f18973;
 }
 
 .modal-header {
