@@ -225,6 +225,7 @@ th, td {
 
 .button2 {
   background-color:whitesmoke; 
+  display:inline-block;
   font-size: 88%;
   color: black; 
   padding: 10px;
@@ -511,7 +512,8 @@ boldFont {
 
 .container {
   /*The content of the inside card*/
-  padding: 2px 10px;}
+  padding: 2px 10px;
+}
 
 /* The container */
 .DSTtable {
