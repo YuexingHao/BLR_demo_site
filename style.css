@@ -168,7 +168,9 @@ th, td {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #E7EEE9;
+  background-color: whitesmoke;
+  border-radius:5px;
+  box-shadow: 2px 3px 3px lightgrey;
 }
 
 .button {
@@ -413,17 +415,17 @@ th, td {
 
 P_back {
   border-radius: 6px;
-  background-color: #80ced6;
+  background-color: #85C1E9;
 }
 
 IC_back {
   border-radius: 5px;
-  background-color: #F5CB4A;
+  background-color:#F8C471;
 }
 
 O_back {
   border-radius: 5px;
-  background-color: #f18973;
+  background-color: #F1948A ;
 }
 
 boldFont {
@@ -666,7 +668,7 @@ summary::-webkit-details-marker {
 
 #myInputP {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
-  background-position: 5px 3px;
+  background-position: 5px 0.4px;
   background-repeat: no-repeat;
   width: 22%; /*Length of the placeholder*/
   font-size: 12px;
@@ -679,7 +681,7 @@ summary::-webkit-details-marker {
 
 #myInputIC {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
-  background-position: 5px 3px;
+  background-position: 5px 0.4px;
   background-repeat: no-repeat;
   width: 33.5%; /*Length of the placeholder*/
   font-size: 12px;
@@ -692,7 +694,7 @@ summary::-webkit-details-marker {
 
 #myInputO {
   background-image: url('https://www.w3schools.com/css/searchicon.png');
-  background-position: 5px 3px;
+  background-position: 5px 0.4px;
   background-repeat: no-repeat;
   width: 22%; /*Length of the placeholder*/
   font-size: 12px;
