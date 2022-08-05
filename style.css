@@ -315,7 +315,7 @@ th, td {
 }
 
 .tooltip {
-  position: relateive;
+  position: relative;
   display: inline-block;
   /*border-bottom: 1px dotted black;*/
 }
@@ -336,7 +336,7 @@ th, td {
   margin-left: -300px;
 }
 
-.tooltip:hover .tooltiptext_P {
+.tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
